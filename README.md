@@ -1,4 +1,4 @@
-# Első repó
+# Autókölcsönző repó
 
 **Auto osztály létrehozása**
 
