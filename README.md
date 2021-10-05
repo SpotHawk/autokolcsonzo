@@ -1,6 +1,6 @@
 # Autókölcsönző repó
 
-**Auto osztály létrehozása**
+### Programleírás
+Autókölcsönző CLI alkalmazás
 
-- [ ] Osztály fájl létrehozása
-- [ ] Tagváltozó létrehozása
+**Verziószám: 0.0**
