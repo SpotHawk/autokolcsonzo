@@ -14,27 +14,21 @@ namespace Autokolcsonzo
 
 			KolcsonozhetoAuto[] flotta = new KolcsonozhetoAuto[10];
 
-			KolcsonozhetoAuto elsoAuto =
-				new KolcsonozhetoAuto("ABC-123", "Suzuki", 2020, 4, 40, 5.7, 'A');
+			KolcsonozhetoAuto elsoAuto = new KolcsonozhetoAuto("ABC-123", "Suzuki", 2020, 4, 40, 5.7, 'A');
 
-			KolcsonozhetoAuto kettoAuto =
-				new KolcsonozhetoAuto("BCD-234", "BMW", 2018, 2, 30, 3.7, 'A');
+			KolcsonozhetoAuto kettoAuto = new KolcsonozhetoAuto("BCD-234", "BMW", 2018, 2, 30, 3.7, 'A');
 
-			KolcsonozhetoAuto haromAuto =
-				new KolcsonozhetoAuto("CDE-345", "Toyota", 2021, 5, 36, 4.1, 'A');
+			KolcsonozhetoAuto haromAuto = new KolcsonozhetoAuto("CDE-345", "Toyota", 2021, 5, 36, 4.1, 'A');
 
 			flotta[0] = elsoAuto;
 			flotta[1] = kettoAuto;
 			flotta[2] = haromAuto;
 
-
 			flotta[3] = randomUjAuto(3);
 			flotta[4] = randomUjAuto(4);
 
-
 			for (int i = 0; i <= 4; i++)
 			{
-
 				Console.Write(flotta[i].getRendszam() + " ; ");
 				Console.Write(flotta[i].getGyarto() + " ; ");
 				Console.Write(flotta[i].getGyartasEve() + " ; ");
@@ -49,9 +43,6 @@ namespace Autokolcsonzo
 			Console.ReadKey(true);
 		}
 
-
-
-
 		public static KolcsonozhetoAuto randomUjAuto(int seed)
 		{
 
@@ -65,7 +56,6 @@ namespace Autokolcsonzo
 				"Volvo",
 				"Lada"
 			};
-
 
 			char[] abc = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
 							'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W',
@@ -88,8 +78,6 @@ namespace Autokolcsonzo
 
 				rszam += gen.Next(0, 10).ToString();
 			}
-
-
 			string marka = gyartok[gen.Next(0, gyartok.Length)];
 			int ev = gen.Next(1995, 2022);
 			int utasok = gen.Next(2, 10);
@@ -97,14 +85,22 @@ namespace Autokolcsonzo
 			double lpkm = 5.5 + (11 * gen.NextDouble());
 			char kat = abc[gen.Next(0, 3)];
 
-			KolcsonozhetoAuto auto =
-				new KolcsonozhetoAuto(rszam, marka, ev, utasok, tartaly, lpkm, kat);
-
+			KolcsonozhetoAuto auto = new KolcsonozhetoAuto(rszam, marka, ev, utasok, tartaly, lpkm, kat);
 			return auto;
 		}
 
+		public KolcsonozhetoAuto randomHasznaltAuto()
+        {
+			KolcsonozhetoAuto auto = randomUjAuto(1);
+			
+			if(auto.getGyartasEve()==2021)
+            {
+				auto.setGyartasiIdo(auto.getGyartasEve() - 4);
+            }
 
+			auto.setMegtettKm(362000);
 
-
+			return auto;
+        }
 	}
 }
