@@ -23,11 +23,12 @@ namespace Autokolcsonzo
 			flotta[0] = elsoAuto;
 			flotta[1] = kettoAuto;
 			flotta[2] = haromAuto;
-
 			flotta[3] = randomUjAuto(3);
 			flotta[4] = randomUjAuto(4);
+			flotta[5] = randomHasznaltAuto(5);
+			flotta[6] = randomHasznaltAuto(6);
 
-			for (int i = 0; i <= 4; i++)
+			for (int i = 0; i <= 6; i++)
 			{
 				Console.Write(flotta[i].getRendszam() + " ; ");
 				Console.Write(flotta[i].getGyarto() + " ; ");
@@ -89,18 +90,30 @@ namespace Autokolcsonzo
 			return auto;
 		}
 
-		public KolcsonozhetoAuto randomHasznaltAuto()
+		public static KolcsonozhetoAuto randomHasznaltAuto(int seed)
         {
-			KolcsonozhetoAuto auto = randomUjAuto(1);
+			KolcsonozhetoAuto auto = randomUjAuto(seed);
 			
 			if(auto.getGyartasEve()==2021)
             {
 				auto.setGyartasiIdo(auto.getGyartasEve() - 4);
             }
-
 			auto.setMegtettKm(362000);
-
 			return auto;
         }
+
+		/*public KolcsonozhetoAuto autoFelvetel()
+        {
+			KolcsonozhetoAuto auto = new KolcsonozhetoAuto();
+			string rszam = "";
+			string gyarto = "";
+			int gyartev = 0;
+			int utasokszama = 0;
+			int tartalym = 0;
+			double lpkm = 0.0;
+			char kat;
+			Console.WriteLine("Adja meg az autó rendszámát('-'-el elválasztva)");
+			rszam = Console.ReadLine();
+        }*/
 	}
 }
