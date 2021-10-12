@@ -102,7 +102,7 @@ namespace Autokolcsonzo
 			return auto;
         }
 
-		/*public KolcsonozhetoAuto autoFelvetel()
+		/*public static KolcsonozhetoAuto autoBekeres()
         {
 			KolcsonozhetoAuto auto = new KolcsonozhetoAuto();
 			string rszam = "";
