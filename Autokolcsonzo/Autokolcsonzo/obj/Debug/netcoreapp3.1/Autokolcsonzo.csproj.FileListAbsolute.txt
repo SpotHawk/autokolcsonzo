@@ -12,3 +12,16 @@ C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.dll
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.pdb
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.genruntimeconfig.cache
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.exe
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.deps.json
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.runtimeconfig.json
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.runtimeconfig.dev.json
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.dll
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.pdb
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.csproj.AssemblyReference.cache
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.AssemblyInfoInputs.cache
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.AssemblyInfo.cs
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.csproj.CoreCompileInputs.cache
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.dll
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.pdb
+D:\Documents\Suli\piller\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.genruntimeconfig.cache
