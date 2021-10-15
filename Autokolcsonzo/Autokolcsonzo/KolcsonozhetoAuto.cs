@@ -10,12 +10,12 @@ namespace Autokolcsonzo
         /*
   		 * tagváltozók
          */
-        private string rendszam;            //RO
+        private string rendszam;            //RO - csak olvasható nem változik
         private string gyarto;              //RO
         private int gyartasEve;             //RO
         private int utasSzam;               //RO
         private int tartalyMeret;           //RO
-        private double uzemanyagMennyiseg;  //RW
+        private double uzemanyagMennyiseg;  //RW - újra írható tud változni
         private double fogyasztas;          //RO
         private int megtettKm;              //RW
         private bool berelheto;             //RW
@@ -28,9 +28,7 @@ namespace Autokolcsonzo
         public KolcsonozhetoAuto() { }
 
         //új autó
-        public KolcsonozhetoAuto(string rszam, string marka, int ev,
-                                 int utasok, int tartaly, double lpkm,
-                                  char kat)
+        public KolcsonozhetoAuto(string rszam, string marka, int ev, int utasok, int tartaly, double lpkm,char kat)
         {
 
             rendszam = rszam;
@@ -86,7 +84,10 @@ namespace Autokolcsonzo
          */
 
         //KATEGÓRIA beállítás
+        /*public void setKategoria()
+        {
 
+        }*/
 
 
         //public teleTankolas() {}

@@ -118,9 +118,9 @@ namespace Autokolcsonzo
 			Console.WriteLine("Autó felvétel");
 			do
 			{
-				Console.WriteLine("Adja meg az autó rendszámát('-'-el elválasztva):");
+				Console.WriteLine("Adja meg az autó rendszámát(ABC-123):");
 				rszam = Console.ReadLine().ToUpper();
-				if(rszam.Length<7)
+				if(rszam.Length<7 || rszam.Length>7)
                 {
 					rsz = false;
 					Console.WriteLine("Helytelen rendszám!");
