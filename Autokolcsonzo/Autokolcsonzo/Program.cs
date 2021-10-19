@@ -31,6 +31,11 @@ namespace Autokolcsonzo
 			flotta[8] = autoFelvetel();
 			flotta[9] = autoFelvetel();
 
+            for (int i = 0; i < 10; i++)
+            {
+				flotta[i].kategoriaBeallitas();
+            }
+
 			for (int i = 0; i <= 9; i++)
 			{
 				Console.Write(flotta[i].getRendszam() + " ; ");
@@ -218,7 +223,8 @@ namespace Autokolcsonzo
 				}
 			}
 			while (!fogy);
-			do
+			//kikommenteltem h teszteljem a kategoriabeallitas metodust
+			/*do 
 			{
 				Console.WriteLine("Adja meg az autó kategoriáját(A: 1-3 év; B: 3-10 év; C: 10 év és felett):");
 				kat = Convert.ToChar(Console.ReadLine().ToUpper());
@@ -267,7 +273,9 @@ namespace Autokolcsonzo
 						break;
 				}
 			}
-			while (!cat);
+			while (!cat);*/
+			Console.WriteLine("Adja meg az autó kategóriáját:");
+			kat = char.Parse((Console.ReadLine().ToUpper()));
 			Console.WriteLine("Autó felvétel megtörtént!");
 			Console.WriteLine();
 			gyarto=char.ToUpper(gyarto[0]) + gyarto.Substring(1);

@@ -84,10 +84,23 @@ namespace Autokolcsonzo
          */
 
         //KATEGÓRIA beállítás
-        /*public void setKategoria()
+        public void kategoriaBeallitas()
         {
-
-        }*/
+            int datum = DateTime.Now.Year;
+            int eletkor = datum - gyartasEve;
+            if (eletkor<3)
+            {
+                kategoria = 'A';
+            }
+            else if(eletkor<=10)
+            {
+                kategoria = 'B';
+            }
+            else
+            {
+                kategoria = 'C';
+            }
+        }
 
 
         //public teleTankolas() {}
