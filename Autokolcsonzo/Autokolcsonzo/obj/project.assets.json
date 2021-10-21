@@ -8,29 +8,27 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Tanulo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\npatr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tanulo\\source\\repos\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo.csproj",
+      "projectUniqueName": "D:\\Documents\\Suli\\piller\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo.csproj",
       "projectName": "Autokolcsonzo",
-      "projectPath": "C:\\Users\\Tanulo\\source\\repos\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo.csproj",
-      "packagesPath": "C:\\Users\\Tanulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tanulo\\source\\repos\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\obj\\",
+      "projectPath": "D:\\Documents\\Suli\\piller\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo.csproj",
+      "packagesPath": "C:\\Users\\npatr\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\Suli\\piller\\autokolcsonzo\\Autokolcsonzo\\Autokolcsonzo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tanulo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\npatr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -62,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

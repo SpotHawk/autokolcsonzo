@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace Autokolcsonzo
 {
@@ -27,16 +26,16 @@ namespace Autokolcsonzo
 			flotta[4] = randomUjAuto(4);
 			flotta[5] = randomHasznaltAuto(5);
 			flotta[6] = randomHasznaltAuto(6);
-			flotta[7]= autoFelvetel();
+			/*flotta[7]= autoFelvetel();
 			flotta[8] = autoFelvetel();
-			flotta[9] = autoFelvetel();
+			flotta[9] = autoFelvetel();*/
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 7; i++)
             {
 				flotta[i].kategoriaBeallitas();
             }
 
-			for (int i = 0; i <= 9; i++)
+			for (int i = 0; i <7; i++)
 			{
 				Console.Write(flotta[i].getRendszam() + " ; ");
 				Console.Write(flotta[i].getGyarto() + " ; ");
@@ -48,6 +47,9 @@ namespace Autokolcsonzo
 				Console.Write(flotta[i].getBerelheto() + " ; ");
 				Console.WriteLine(flotta[i].getKategoria());
 			}
+
+			autokOsszKm(flotta);
+
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
@@ -281,6 +283,16 @@ namespace Autokolcsonzo
 			gyarto=char.ToUpper(gyarto[0]) + gyarto.Substring(1);
 			KolcsonozhetoAuto auto = new KolcsonozhetoAuto(rszam,gyarto,gyartev,utasokszama,tartalym,lpkm,kat);
 			return auto;
+        }
+
+		public static void autokOsszKm(KolcsonozhetoAuto[] t)
+        {
+			int kmsum = 0;
+            for (int i = 0; i <7; i++)
+            {
+				kmsum += t[i].getMegtettKm();
+            }
+			Console.WriteLine("Az autók összesen megtett km-re: {0}km",kmsum);
         }
 	}
 }

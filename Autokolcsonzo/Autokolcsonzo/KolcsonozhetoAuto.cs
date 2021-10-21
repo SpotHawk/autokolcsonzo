@@ -30,7 +30,6 @@ namespace Autokolcsonzo
         //új autó
         public KolcsonozhetoAuto(string rszam, string marka, int ev, int utasok, int tartaly, double lpkm,char kat)
         {
-
             rendszam = rszam;
             gyarto = marka;
             gyartasEve = ev;
@@ -42,7 +41,6 @@ namespace Autokolcsonzo
             berelheto = true;
             kategoria = kat;
         }
-
 
         /*
          * Getter-setter metódusok
@@ -64,9 +62,7 @@ namespace Autokolcsonzo
         public bool getBerelheto() { return berelheto; }
 
         public char getKategoria() { return kategoria; }
-
-
-
+        //-----------------------------------------------------------------
         public void setRendszam(string rszam) { rendszam = rszam; }
 
         public void setuzemanyagMennyiseg(double mennyiseg) { uzemanyagMennyiseg = mennyiseg; }
@@ -104,9 +100,6 @@ namespace Autokolcsonzo
 
 
         //public teleTankolas() {}
-
-
-
 
     }
 }
